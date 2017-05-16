@@ -46,7 +46,7 @@
           </a>
         <div class="text">
           <h1>Stenio!</h1>
-          <h2>Ficou top esse CodeStar.</h2>
+          <h2>A nanazinha eh top.</h2>
         </div>
       </div>
     </div>
