@@ -90,14 +90,14 @@
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="/resources/images/pic02.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Terraformed a small moon</h4>
 												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="/resources/images/pic03.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Snapped dark matter in the wild</h4>
 												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
@@ -502,7 +502,7 @@
 			<script src="/resources/assets/js/skel.min.js"></script>
 			<script src="/resources/assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="/resources/assets/js/main.js"></script>
 
 	</body>
 </html>
