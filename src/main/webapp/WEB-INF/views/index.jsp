@@ -14,7 +14,7 @@
 		<!--[if lte IE 8]><script src="/resources/assets/js/ie/html5shiv.js"></script><![endif]-->
 		
 		<spring:url value="/resources/assets/css/main.css" var="mainCss" />
-		<spring:url value="/resources/images/avatar.jpg" var="avatarJpg" />
+		<spring:url value="/resources/avatar.jpg" var="avatarJpg" />
 		
 		<link rel="stylesheet" href="${mainCss}" />
 		
