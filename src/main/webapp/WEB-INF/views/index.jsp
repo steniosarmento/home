@@ -14,6 +14,7 @@
 		<!--[if lte IE 8]><script src="/resources/assets/js/ie/html5shiv.js"></script><![endif]-->
 		
 		<spring:url value="/resources/assets/css/main.css" var="mainCss" />
+		<spring:url value="/resources/images/avatar.jpg" var="avatarJpg" />
 		
 		<link rel="stylesheet" href="${mainCss}" />
 		
@@ -24,8 +25,8 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="/resources/images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Willis Corto</a></h1>
+					<span class="image avatar"><img src="${avatarJpg}" alt="" /></span>
+					<h1 id="logo"><a href="#">Stenio Sarmento</a></h1>
 					<p>I got reprogrammed by a rogue AI<br />
 					and now I'm totally cray</p>
 				</header>
