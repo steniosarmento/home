@@ -9,8 +9,8 @@
 		<title>Read Only by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><script src="/resources/assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/resources/assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
@@ -18,7 +18,7 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<span class="image avatar"><img src="/resources/images/avatar.jpg" alt="" /></span>
 					<h1 id="logo"><a href="#">Willis Corto</a></h1>
 					<p>I got reprogrammed by a rogue AI<br />
 					and now I'm totally cray</p>
@@ -83,7 +83,7 @@
 									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="/resources/images/pic01.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Possibly broke spacetime</h4>
 												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
@@ -458,24 +458,24 @@
 										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
 										<div class="box alt">
 											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="/resources/images/pic01.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="/resources/images/pic02.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="/resources/images/pic03.jpg" alt="" /></span></div>
 											</div>
 											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="/resources/images/pic02.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="/resources/images/pic03.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="/resources/images/pic01.jpg" alt="" /></span></div>
 											</div>
 											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="/resources/images/pic03.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="/resources/images/pic01.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="/resources/images/pic02.jpg" alt="" /></span></div>
 											</div>
 										</div>
 										<h5>Left &amp; Right</h5>
-										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image left"><img src="/resources/images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="/resources/images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 									</section>
 
 								</div>
@@ -496,11 +496,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<script src="/resources/assets/js/jquery.min.js"></script>
+			<script src="/resources/assets/js/jquery.scrollzer.min.js"></script>
+			<script src="/resources/assets/js/jquery.scrolly.min.js"></script>
+			<script src="/resources/assets/js/skel.min.js"></script>
+			<script src="/resources/assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
