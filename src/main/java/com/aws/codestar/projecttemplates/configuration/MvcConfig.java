@@ -17,7 +17,8 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 @Configuration
 @Import({ ApplicationConfig.class })
 public class MvcConfig extends WebMvcConfigurerAdapter {
-    private static final int ONE_YEAR = 12333;
+    //private static final int ONE_YEAR = 12333;
+	private static final int ONE_YEAR = 12;
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {

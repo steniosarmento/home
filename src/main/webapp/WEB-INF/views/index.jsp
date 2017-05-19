@@ -13,10 +13,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="/resources/assets/js/ie/html5shiv.js"></script><![endif]-->
 		
-		<spring:url value="/resources/assets/css/main.css" var="mainCss" />
-		<spring:url value="/resources/avatar.jpg" var="avatarJpg" />
 		
-		<link rel="stylesheet" href="${mainCss}" />
+		<spring:url value="/resources/assets/css/main.css" var="mainCss" />
+    	
+    	<link href="${mainCss}" rel="stylesheet">
+    	
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="/resources/assets/css/ie8.css" /><![endif]-->
 	</head>
