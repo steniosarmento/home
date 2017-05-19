@@ -15,6 +15,7 @@
 		
 		
 		<spring:url value="/resources/assets/css/main.css" var="mainCss" />
+    	<spring:url value="/resources/avatar.jpg" var="avatarJpg" />
     	
     	<link href="${mainCss}" rel="stylesheet">
     	
