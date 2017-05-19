@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Página Pessoal do Stenio</title>
+    <title>JavaSpringWebApp</title>
     <meta name="description" content="" />
 
     <spring:url value="/resources/gradients.css" var="gradientsCss" />
@@ -45,14 +45,14 @@
               <img src="${tweetSvg}" alt="Tweet"/>
           </a>
         <div class="text">
-          <h1>Stenio!</h1>
-          <h2>Teste.</h2>
+          <h1>Congratulations!</h1>
+          <h2>You just created a Java Spring web application.</h2>
         </div>
       </div>
     </div>
 
     <footer>
-      <p class="footer-contents">Desenhado e desenvolvido com <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Seattle.</p>
+      <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Seattle.</p>
     </footer>
 
     <script src={$setBackgroundJs}"></script>
