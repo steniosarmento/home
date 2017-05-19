@@ -46,7 +46,7 @@
           </a>
         <div class="text">
           <h1>Stenio!</h1>
-          <h2>A nanazinha eh top.</h2>
+          <h2>Teste.</h2>
         </div>
       </div>
     </div>
@@ -55,6 +55,6 @@
       <p class="footer-contents">Desenhado e desenvolvido com <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Seattle.</p>
     </footer>
 
-    <script src={$setBackgroundJs}"></script>
+    <script src={$setBackgroundJs}></script>
   </body>
 </html>
