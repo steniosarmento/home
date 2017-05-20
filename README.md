@@ -1,23 +1,30 @@
 Página Pessoal do Stenio
 ==================================================
 
-Este é o meu projeto pessoal.
+Esta é a minha página pessoal. Neste site irei divulgar as novidades sobre os projetos que estou participando e contar um pouco sobre a minha trajetória.
 
 O que é
 -----------
 
-Inclui:
+Esta página inclui:
 
-* Teste 1
-* Teste 2
+* Breve histórico
+* Minhas principais características
+* Exemplo de funcionalidade de envio de e-mail com javax.mail
 
+Estrutura
+-----------
 
-Começando
----------------
+O site utiliza as seguintes tecnologias da AWS e do Google:
 
-Fazer lista.
+* AWS CodeStar
+* AWS CodeCommit
+* AWS CodeBuild
+* AWS CodePipeline
+* AWS Elastic Beanstalk‎
+* Google Analytics
 
-E agora?
-------------------
+Design
+-----------
 
-E agora?
+O Design é de autoria de ajlkn (https://aj.lkn.io/) 
