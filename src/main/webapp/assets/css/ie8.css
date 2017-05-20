@@ -1,66 +1,60 @@
 /*
-	Overflow by HTML5 UP
+	Read Only by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 /* Basic */
 
-	body {
-		background-image: url("../../images/bg.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: auto;
-		background-attachment: scroll;
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-	}
-
-/* Section/Article */
-
-	section > .last-child,
-	article > .last-child,
-	section.last-child,
-	article.last-child {
-		margin-bottom: 0;
-	}
-
-/* Button */
-
-	input[type="button"],
+	code,
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea,
+	.box,
+	.image,
+	.image img,
 	input[type="submit"],
 	input[type="reset"],
-	button,
+	input[type="button"],
 	.button {
 		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		input[type="button"].style2:hover,
-		input[type="submit"].style2:hover,
-		input[type="reset"].style2:hover,
-		button.style2:hover,
-		.button.style2:hover {
-			color: #35b88f !important;
-		}
+/* Form */
 
-		input[type="button"].style3,
-		input[type="submit"].style3,
-		input[type="reset"].style3,
-		button.style3,
-		.button.style3 {
-			background: #fefefe;
-			border: solid 1px #dad9d9;
-		}
-
-/* Footer */
-
-	#footer .icons {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select {
+		line-height: 2.75em;
 	}
 
-/* Header */
+	input[type="checkbox"],
+	input[type="radio"] {
+		-moz-appearance: normal;
+		-webkit-appearance: normal;
+		-ms-appearance: normal;
+		appearance: normal;
+	}
 
-	#header header p {
-		border-top: solid 1px #888;
+		input[type="checkbox"] + label,
+		input[type="radio"] + label {
+			padding: 0 0 0 1.5em;
+		}
+
+			input[type="checkbox"] + label:before,
+			input[type="radio"] + label:before {
+				display: none;
+			}
+
+/* Button */
+
+	input[type="submit"].alt,
+	input[type="reset"].alt,
+	input[type="button"].alt,
+	.button.alt {
+		border: solid 2px #e4e4e4;
 	}
