@@ -20,11 +20,11 @@ public class Email extends HttpServlet {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	String redirectURL = "/principal/mail_send.html";
+	String redirectURL = "/mail_send.html";
 
-	final String senha = "xxxxxx";
-	final String remetenteInterno = "xxxxx";
-	final String assunto = "xxxxxxxxxxx";
+	final String senha = System.getenv("SENHA_EMAIL");
+	final String remetenteInterno = System.getenv("CONTA_EMAIL");
+	final String assunto = "Contato Site";
 
 	private Session ConfiguraEmail() {
 
@@ -59,9 +59,9 @@ public class Email extends HttpServlet {
 
 		// Se for mensagem de teste, mandar só pra Stenio
 		if ("teste".equals(message)) {
-			destino = "xxxxxxxxxx";
+			destino = System.getenv("EMAIL_DESTINO");
 		} else {
-			destino = "xxxxxxxxxxxxxx";
+			destino = System.getenv("EMAIL_DESTINO");
 		}
 
 		message = message + "\n\nEnviado por: " + name + "\nResponder para: " + email;
