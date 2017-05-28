@@ -24,7 +24,6 @@ public class Email extends HttpServlet {
 
 	final String senha = System.getenv("SENHA_EMAIL");
 	final String remetenteInterno = System.getenv("CONTA_EMAIL");
-	final String assunto = "Contato Site";
 
 	private Session ConfiguraEmail() {
 
@@ -56,6 +55,7 @@ public class Email extends HttpServlet {
 		String name = request.getParameter("name");
 		String email = request.getParameter("email");
 		String message = request.getParameter("message");
+		String subject = request.getParameter("subject");
 
 		// Se for mensagem de teste, mandar só pra Stenio
 		if ("teste".equals(message)) {
@@ -71,7 +71,7 @@ public class Email extends HttpServlet {
 			Message mensagem = new MimeMessage(ConfiguraEmail());
 			mensagem.setFrom(new InternetAddress(remetenteInterno)); // Remetente
 			mensagem.setRecipients(Message.RecipientType.TO, InternetAddress.parse(destino)); // Destinatario
-			mensagem.setSubject(assunto);// Assunto
+			mensagem.setSubject(subject);// Assunto
 			mensagem.setText(message); // Texto
 			Transport.send(mensagem); // Envia o email
 
